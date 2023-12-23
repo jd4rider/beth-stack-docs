@@ -1,0 +1,33 @@
+---
+title: Welcome to BETH
+description: Get started building your site with The BETH.
+template: splash
+hero:
+  tagline: Let's get started on a new BETH (Bun, ElysiaJS, Turso, HTMX) project!
+  image:
+    file: ../../assets/Beth.webp
+  actions:
+    - text: Getting Started
+      link: /start_here/getting_started/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## BETH (Bun, ElysiaJS, Turso, HTMX)
+
+<CardGrid>
+	<Card title="BUN" icon="pencil">
+		[Learn more about Bun](https://bun.sh).
+	</Card>
+	<Card title="ELYSIAJS" icon="add-document">
+		[Learn more about ElysiaJS](https://elysiajs.com).
+	</Card>
+	<Card title="TURSO" icon="setting">
+		[Learn more about Turso](https://turso.tech).
+	</Card>
+	<Card title="HTMX" icon="open-book">
+		[Learn more about HTMX](https://htmx.org).
+	</Card>
+</CardGrid>
